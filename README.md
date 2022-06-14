@@ -1,5 +1,7 @@
 # Build a Banking System API with DJANGO Restframework
 
+## but if you dont want to follow all of this and you already have python and Django install in ur local machine just use yarn install for depenmdancies you do not have after coping this file in ur local IDE from the terminal of your IDE type yarn install
+
 ### Section 1| Django start project
 
 *1 - Requirements: no code*
@@ -102,7 +104,7 @@ Install using `pip` ...
 
 ```
 pip install djangorestframework====3.12.4
-pip install Markdown==3.3.6      # Markdown support for the browsable API.
+pip install Markdown==3.3.7      # Markdown support for the browsable API.
 pip install django-filter==21.1  # Filtering support
 ```
 
@@ -126,11 +128,11 @@ urlpatterns = [
 
 Note that the URL path can be whatever you want.
 
-[3 - Creating Bank System Models](../../tree/bc2272e009fa1dcb8719155d5b603b74c9e02e74/)
+[3 - Creating Bank System Models]
 
-[4 - Creating Serailizers](../../tree/93b845ccda9d5430dd5e447ec250f5a883d3a55f/)
+[4 - Creating Serailizers]
 
-[4 - Implementing Branch & Bank Endpoints Using generic views](../../tree/48c31204adf47262acdda05c44742393e25ec39e/)
+[4 - Implementing Branch & Bank Endpoints Using generic views]
 
 <!-- [6 - Create & Update through Serializers](../../tree/add_commit_here/)
 
@@ -200,4 +202,4 @@ d
 
 [41 - Testing with a Temporary Image](../../tree/add_commit_histor/) -->
 
-*42 - Final wrap-up: no code*
+*42 - Final wrap-up: no code by Alex Sylvain Luenga*
