@@ -1,11 +1,7 @@
 # Build a Banking System API with DJANGO Restframework
-![Banking System API Logo](./course_logo.png)
-
-We're going to take you step-by-step to build a modern, fully open-source,Banking System RESTful API using Python, Django Rest Framework.
-
-This course will teach you exactly how to build one with Django, Python, Django Rest Framework, and more.
 
 ### Section 1| Django start project
+
 *1 - Requirements: no code*
 
 Prerequisites required include:
@@ -13,7 +9,7 @@ Prerequisites required include:
 - Python 3
 - Pip 3
 - Virtualenv
-- Django == 3.2.9
+- Django == 4.0.5
 
 #### Django Installation Instructions
 
@@ -34,29 +30,25 @@ Prerequisites required include:
 
   `source .env/bin/activate`
 
-* Install Django framework. We are going to use `django==3.2.9` in this tutorial.
+* Install Django framework. We are going to use `django==4.0.5` in this project.
 
-  `pip3 install django==3.2.9`
+  `pip3 install django==4.0.5`
 
 OR 
 
-  `pip install django==3.2.9` _If python3 is the default version running._
+  `pip install django==4.0.5` _If python3 is the default version running._
 
 * Create django project:
   
   `django-admin startproject banksystem`
- 
+  
 
-> That's it !!!!! You did it  :smiley: :clap: :clap: 
-
-If you want to see the blank project we created follow the link below.
-
-[1 - Blank Django Project](../../tree/96f545b069e1995c2662529f2d2e0decc1c4281c/)
+[1 - Blank Django Project]
 
 
-Now lets create an application called `api` inside our project `banksystem`. [To learn more about django applications.](https://docs.djangoproject.com/en/2.1/ref/applications/)
+Now lets name our application `api` inside our project `banksystem`. [To learn more about django applications.](https://docs.djangoproject.com/en/2.1/ref/applications/)
 
-[2 - Create api app](../../tree/084d648c94b0f11c89cbbcd930e2fce6e3687109/)
+[2 - Create api app]
 
 Run the following command in your root folder where `manage.py` lives.
 
@@ -100,13 +92,11 @@ Include `api` application in django `settings.py`
 
 ```
 
-[Learn about django project structure.](https://django-project-skeleton.readthedocs.io/en/latest/structure.html)
-
-### Section 2| Django Rest Framework
+## Section 2| Django Rest Framework
 
 *1 - Introduction: no code*
 
-[2 - Install Django Rest Framework](../../tree/63ae3a627606d74c9e4f6128ccd1ec686104585a/)
+[2 - Install Django Rest Framework]
 
 Install using `pip` ...
 
