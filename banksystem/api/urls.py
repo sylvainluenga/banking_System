@@ -10,6 +10,7 @@ from .views import (
 
 )
 
+
 urlpatterns = [
     url(r'^branches/', BranchesAPIView.as_view(),name='branches'),
     url(r'^branch/(?P<pk>[0-9]+)/', BranchDetailAPIView.as_view(),name='branch-detail'),

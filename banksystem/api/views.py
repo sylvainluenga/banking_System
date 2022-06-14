@@ -59,3 +59,4 @@ class CreateAccountAPIView(APIView):
 class AccountListAPIView(generics.ListAPIView):
     queryset = Account.objects.all()
     serializer_class = AccountSerializer
+    

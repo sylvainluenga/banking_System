@@ -15,38 +15,36 @@ Prerequisites required include:
 
 #### Django Installation Instructions
 
-* Make directory in your workspace:
+- Make directory in your workspace:
   `mkdir banksystem_project`
 
-* Navigate into `banksystem_project`
+- Navigate into `banksystem_project`
 
   `cd banksystem_project`
 
-* Create a python virtual environment to install django and other dependecies in the future.
+- Create a python virtual environment to install django and other dependecies in the future.
 
   `virtualenv .env`
 
   `.env` is the directory where we install the packages.
 
-* Activate the virtual environment.
+- Activate the virtual environment.
 
   `source .env/bin/activate`
 
-* Install Django framework. We are going to use `django==4.0.5` in this project.
+- Install Django framework. We are going to use `django==4.0.5` in this project.
 
   `pip3 install django==4.0.5`
 
-OR 
+OR
 
-  `pip install django==4.0.5` _If python3 is the default version running._
+  `pip install django==4.0.5` *If python3 is the default version running.*
 
-* Create django project:
+- Create django project:
   
   `django-admin startproject banksystem`
   
-
 [1 - Blank Django Project]
-
 
 Now lets name our application `api` inside our project `banksystem`. [To learn more about django applications.](https://docs.djangoproject.com/en/2.1/ref/applications/)
 
@@ -58,7 +56,7 @@ Run the following command in your root folder where `manage.py` lives.
 
 The app `api` will be created and your whole project folder structure should look like this.
 
-```markdown 
+```markdown
 
 [banksystem_project]/
 ├── [banksystem]/
@@ -117,7 +115,7 @@ INSTALLED_APPS = (
 )
 ```
 
-If you're intending to use the browsable API you'll probably also want to add REST framework's login and logout views. Add the following to your root`urls.py` file. Location of **urls.py** `banksystem_project/banksystem/urls.py` 
+If you're intending to use the browsable API you'll probably also want to add REST framework's login and logout views. Add the following to your root`urls.py` file. Location of **urls.py** `banksystem_project/banksystem/urls.py`
 
 ```
 urlpatterns = [

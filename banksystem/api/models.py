@@ -13,7 +13,6 @@ class Branch(models.Model):
         verbose_name_plural = "Branches"
 
 
-
     def json_object(self):
         return {
             "name":self.name,
@@ -102,11 +101,4 @@ class Withdraw(models.Model):
 class Deposit(models.Model):
     amount = models.FloatField()
     account = models.ForeignKey(Account,on_delete=models.CASCADE)
-
-
-
-
-
-
-
 

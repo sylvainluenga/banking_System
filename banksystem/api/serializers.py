@@ -60,3 +60,7 @@ class DepositSerializer(serializers.ModelSerializer):
     class Meta:
         model = Deposit
         fields = ('__all__')
+
+
+
+        
